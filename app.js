@@ -86,11 +86,11 @@ document.getElementById("calculate-btn").addEventListener("click", () => {
       2
     )}`;
     document.getElementById(
-      "item-result"
+      "term-result"
     ).innerText = `$${totalRepayment.toFixed(2)}`;
   } else {
     document.getElementById("result").innerText = "";
-    document.getElementById("item-result").innerText = "";
+    document.getElementById("term-result").innerText = "";
 
     defaultText.classList.remove("hide");
     calculationsContainer.classList.remove("show");
@@ -120,4 +120,3 @@ document.getElementById("clear-btn").addEventListener("click", () => {
 document.querySelectorAll(".form-alert").forEach((alert) => {
   alert.style.display = "none";
 });
- 
