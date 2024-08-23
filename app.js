@@ -100,7 +100,7 @@ document.getElementById("calculate-btn").addEventListener("click", () => {
 document.getElementById("clear-btn").addEventListener("click", () => {
   document.getElementById("mortgage-form").reset();
   document.getElementById("result").innerText = "";
-  document.getElementById("item-result").innerText = "";
+  document.getElementById("term-result").innerText = "";
   document.querySelectorAll(".form-alert").forEach((alert) => {
     alert.style.display = "none";
   });
